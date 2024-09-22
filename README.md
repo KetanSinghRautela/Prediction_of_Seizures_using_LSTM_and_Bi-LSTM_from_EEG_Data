@@ -24,8 +24,10 @@ This is a layer in Keras that randomly sets a fraction of input units to 0 while
 - **Flatten-**
 It is a layer in Keras that flattens the input provided, converts a multi-dimensional array to a 1-D array,  used before dense layer.
 - **Dense-**
-It it a layer in Keras that implements fully connected Neural Network layer, where every neuron of the layer receives input from all the neurons in previous layer.
-
+It it a layer in Keras that implements fully connected Neural Network layer, where every neuron of the layer receives input from all the neurons in previous layer.<br>
+### Load the Dataset
+- **Read Data-** The dataset is loaded from a .CSV file using pandas. This contains EEG recordings and associated labels indicating whether a seizure occurred.
+- **Structure of Data-** Dataset  consists of EEG readings and a target label that indicates the seizure's presence or absence.
 
 ## Group
 **Group Number** - 6<br>
