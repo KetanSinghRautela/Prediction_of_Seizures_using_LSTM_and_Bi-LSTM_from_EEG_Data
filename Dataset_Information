@@ -1,8 +1,8 @@
-** This Dataset collect from UCI Machine Learning Repository **
+** This Dataset is collected from UCI Machine Learning Repository **
 
-The dataset that is used in our project is a pre-processed and re-structured/reshaped of the dataset 
-(https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition) 
-which is very commonly used for featuring Epileptic Seizure Detection.
+The dataset that is used in our project is a pre-processed and re-structured/reshaped of the dataset(link)
+- https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition .
+It is very commonly used for featuring Epileptic Seizure Detection.
 
 Original dataset that is reshaped consists of 5 various folders, each of them with a 100 files, each file representing single subject/person. 
 Each file is a recording of a persons brain activity for 23.6 seconds. Corresponding Time-Series is sampled into a total of 4097 data points.
