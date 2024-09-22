@@ -10,3 +10,5 @@ Link to original dataset (https://archive.ics.uci.edu/ml/datasets/Epileptic+Seiz
 
 The dataset that is used in our project is a pre-processed and re-structured/reshaped and is very commonly dataset featuring Epileptic Seizure Detection.
 
+
+
