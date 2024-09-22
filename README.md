@@ -60,11 +60,6 @@ Model is compiled with a binary Cross-Entropy Loss function and the Adam optimiz
 Model is now trained using the .fit method. During training, it learns to recognize the patterns related to seizures based on  input EEG data.<br>
 ### Evaluate the Model
 After training, model is now evaluated on the test set to determine performance.<br>
-### Results
-At last, accuracy of the model is printed, provids an indication of its effectiveness in predicting seizures based on EEG data.<br>
-
-
-
 ## Group
 **Group Number** - 6<br>
 **Leader Name** - Ketan Singh Rautela<br>
@@ -75,6 +70,10 @@ The Dataset is collected from **UCI Machine Learning Repository**.
 Link to original dataset (https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition).<br>
 
 The dataset that is used in our project is a pre-processed and re-structured/reshaped and is very commonly dataset featuring Epileptic Seizure Detection.
+### Results
+At last, accuracy of the model is printed, provids an indication of its effectiveness in predicting seizures based on EEG data.
+- **LSTM-** When trained with LSTM the accuracy that we get is<img width="871" alt="Accuracy" src="https://github.com/user-attachments/assets/5dd88305-9a7d-4550-b3f8-2269585eaac5">
+
 
 
 
