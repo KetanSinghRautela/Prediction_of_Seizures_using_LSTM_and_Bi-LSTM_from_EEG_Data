@@ -1,7 +1,7 @@
 # Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
 # Description
 
-## Workflow
+# Workflow
 ### Import necessary libraries:-
 - **pandas as pd-**
 Used for manipulation of data and analysis. It provides data structures like DataFrames to work with the structured data.<br>
