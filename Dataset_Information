@@ -1,2 +1,3 @@
-The dataset that is used in our project is a pre-processed and re-structured or reshaped of the dataset (https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition)
-This dataset is a pre-processed and re-structured/reshaped version of a very commonly used dataset featuring epileptic seizure detection.
+The dataset that is used in our project is a pre-processed and re-structured or reshaped of the dataset (https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition) which is 
+very commonly used for featuring epileptic seizure detection.
+
