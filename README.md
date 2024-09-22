@@ -1,9 +1,9 @@
 # Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
 ## Description
 ### Import necessary libraries
-#### pandas as pd:
+**pandas as pd:**
 Used for manipulation of data and analysis. It provides data structures like DataFrames to work with the structured data.
-#### numpy as np: 
+**numpy as np:**
 This is a library used for numerical operations in Python. It gives support and help to arrays and matrices, with mathematical functions to operate on the data structures.
 #### train_test_split:
 It is a function from sklearn.model_selection that splits the arrays or matrices into the random training and testing subsets. It's basically used to create training and testing datasets for model evaluation ahead.
