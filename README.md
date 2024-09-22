@@ -1,8 +1,8 @@
 # Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
 ## Group
-** Group Number ** -6<br>
-**Leader Name-**Ketan Singh Rautela<br>
-**Members Name-**Vedanshi Rana, Hardik Singh, Gaurai Gupta, Aryan Parihar.
+**Group Number** - 6<br>
+**Leader Name** - Ketan Singh Rautela<br>
+**Members Name** - Vedanshi Rana, Hardik Singh, Gaurai Gupta, Aryan Parihar.
 ## Dataset 
 The Dataset is collected from **UCI Machine Learning Repository**.
 
