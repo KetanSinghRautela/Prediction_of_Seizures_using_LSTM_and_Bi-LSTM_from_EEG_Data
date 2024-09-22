@@ -1,5 +1,7 @@
 # Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
 ## Description
+
+## Workflow
 ### Import necessary libraries:-
 - **pandas as pd-**
 Used for manipulation of data and analysis. It provides data structures like DataFrames to work with the structured data.<br>
@@ -29,9 +31,26 @@ It it a layer in Keras that implements fully connected Neural Network layer, whe
 - **Read Data-** The dataset is loaded from a .CSV file using pandas. This contains EEG recordings and associated labels indicating whether a seizure occurred.
 - **Structure of Data-** Dataset  consists of EEG readings and a target label that indicates the seizure's presence or absence.<br>
 ### Preprocessing Data
-- **Separate Features and Labels-**The target variable y (labels) that we declared is extracted from DataFrame. This indicates whether the seizure occurred (1 if yes) or not (0 if not occured).Unnecessary columns are dropped which includes any non-predictive columns, like identifiers.
+- **Separate Features and Labels-**The target variable y (labels) that we declared is extracted from DataFrame. This indicates whether the seizure occurred (1 if yes) or not (0 if not occured). Unnecessary columns are dropped which includes any non-predictive columns, like identifiers.
 - **Reshaping the Input Data-**
-The features are then converted into a specific shape(reshaped) that is suitable for applying LSTM. Each of the feature row is now converted into a 3-D Array format. This is necessary as LSTM expects input in the form of (samples, timesteps, features).Each EEG reading is then structured into smaller arrays for LSTM processing.
+The features are then converted into a specific shape(reshaped) that is suitable for applying LSTM. Each of the feature row is now converted into a 3-D Array format. This is necessary as LSTM expects input in the form of (samples, timesteps, features).Each EEG reading is then structured into smaller arrays for LSTM processing.<br>
+### Binary Classification Adjustment
+- **Binary Encoding-** Labels are adjusted to the binary format where a label other than 1 is set to 0. It simplifies our classification to binary seizure detection.<br>
+### Split the Data
+- **Train-Test Split-** Dataset is splitted into training and testing sets using train_test_split. This helps in evaluating the model's performance on unseen data.<br>
+### Building the LSTM/Bi-LSTM Model
+- **Sequential Model-** A sequential model is initialized to build a LSTM architecture.
+- **Bidirectional-LSTM Layers-** Bi-LSTMs are added to the model. The LSTM now processes the input data in both forward and backward directions, capturing more temporal dependencies.<br>
+### Compile the Model
+Model is compiled with a binary Cross-Entropy Loss function and the Adam optimizer. This is the setup that's suitable for binary classification tasks.<br>
+### Train the Model
+Model is now trained using the .fit method. During training, it learns to recognize the patterns related to seizures based on  input EEG data.<br>
+### Evaluate the Model
+After training, model is now evaluated on the test set to determine performance.<br>
+### Results
+At last, accuracy of the model is printed, provids an indication of its effectiveness in predicting seizures based on EEG data.<br>
+
+
 
 ## Group
 **Group Number** - 6<br>
