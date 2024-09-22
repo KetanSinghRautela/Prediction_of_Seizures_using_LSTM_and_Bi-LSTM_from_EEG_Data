@@ -1,5 +1,8 @@
 # Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
 # Description
+This project aims to develop a Machine Learning Model that is capable of predicting Epileptic Seizures from EEG (electroencephalogram) data/recordings using a Bidirectional Long Short-Term Memory (Bi-LSTM) network and (LSTM). EEG signals provide insights into the brains activity, accurately predicting seizures can improve the quality of life for patients with epilepsy.
+
+
 
 # Workflow
 ### Import necessary libraries:-
