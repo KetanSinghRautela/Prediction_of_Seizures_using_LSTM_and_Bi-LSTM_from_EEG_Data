@@ -54,7 +54,7 @@ Model is compiled with a binary Cross-Entropy Loss function and the Adam optimiz
 Model is now trained using the .fit method. During training, it learns to recognize the patterns related to seizures based on  input EEG data.<br>
 ### Evaluate the Model
 After training, model is now evaluated on the test set to determine performance.<br><br>
-<img width="901" alt="Bi-LSTM_Accuracy" src="https://github.com/user-attachments/assets/0676dcc5-9630-4d8a-8de1-e4b9094359d7"><br><br>
+<img width="838" alt="Screenshot 2024-09-23 at 12 45 18 AM" src="https://github.com/user-attachments/assets/877512ad-46b2-4a0d-864b-149f90a11f00"><br><br>
 
 ## Group
 **Group Number** - 6<br>
