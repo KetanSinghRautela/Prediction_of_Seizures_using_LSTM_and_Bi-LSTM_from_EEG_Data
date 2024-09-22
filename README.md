@@ -8,12 +8,6 @@ For the future work and enhancing the model you can
 - Explore the hyperparameter tuning to enhance model performance.
 - Implement additional features, like real-time prediction and integration with some kind of wearable devices.
 
-
-
-
-
-
-
 # Workflow
 ### Import necessary libraries:-
 - **pandas as pd-**
@@ -59,7 +53,9 @@ Model is compiled with a binary Cross-Entropy Loss function and the Adam optimiz
 ### Train the Model
 Model is now trained using the .fit method. During training, it learns to recognize the patterns related to seizures based on  input EEG data.<br>
 ### Evaluate the Model
-After training, model is now evaluated on the test set to determine performance.<br>
+After training, model is now evaluated on the test set to determine performance.<br><br>
+<img width="901" alt="Bi-LSTM_Accuracy" src="https://github.com/user-attachments/assets/0676dcc5-9630-4d8a-8de1-e4b9094359d7"><br><br>
+
 ## Group
 **Group Number** - 6<br>
 **Leader Name** - Ketan Singh Rautela<br>
