@@ -72,7 +72,9 @@ Link to original dataset (https://archive.ics.uci.edu/ml/datasets/Epileptic+Seiz
 The dataset that is used in our project is a pre-processed and re-structured/reshaped and is very commonly dataset featuring Epileptic Seizure Detection.
 ### Results
 At last, accuracy of the model is printed, provids an indication of its effectiveness in predicting seizures based on EEG data.
-- **LSTM-** When trained with LSTM the accuracy that we get is<img width="871" alt="Accuracy" src="https://github.com/user-attachments/assets/5dd88305-9a7d-4550-b3f8-2269585eaac5">
+- **LSTM-** When trained with **LSTM** model, the accuracy that we get is<br><img width="871" alt="Accuracy" src="https://github.com/user-attachments/assets/5dd88305-9a7d-4550-b3f8-2269585eaac5"><br>
+- **Bi-LSTM-** When trained with **Bi-LSTM** model, the accuracy that we get is<br><img width="901" alt="Bi-LSTM_Accuracy" src="https://github.com/user-attachments/assets/4b6cd635-7a1b-409f-8f12-7b1e2710618b">
+
 
 
 
