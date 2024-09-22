@@ -27,7 +27,11 @@ It is a layer in Keras that flattens the input provided, converts a multi-dimens
 It it a layer in Keras that implements fully connected Neural Network layer, where every neuron of the layer receives input from all the neurons in previous layer.<br>
 ### Load the Dataset
 - **Read Data-** The dataset is loaded from a .CSV file using pandas. This contains EEG recordings and associated labels indicating whether a seizure occurred.
-- **Structure of Data-** Dataset  consists of EEG readings and a target label that indicates the seizure's presence or absence.
+- **Structure of Data-** Dataset  consists of EEG readings and a target label that indicates the seizure's presence or absence.<br>
+### Preprocessing Data
+- **Separate Features and Labels-**The target variable y (labels) that we declared is extracted from DataFrame. This indicates whether the seizure occurred (1 if yes) or not (0 if not occured).Unnecessary columns are dropped which includes any non-predictive columns, like identifiers.
+- **Reshaping the Input Data-**
+The features are then converted into a specific shape(reshaped) that is suitable for applying LSTM. Each of the feature row is now converted into a 3-D Array format. This is necessary as LSTM expects input in the form of (samples, timesteps, features).Each EEG reading is then structured into smaller arrays for LSTM processing.
 
 ## Group
 **Group Number** - 6<br>
