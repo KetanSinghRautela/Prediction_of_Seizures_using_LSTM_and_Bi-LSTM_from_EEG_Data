@@ -1,7 +1,16 @@
 # Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
 # Description
-Epilepsy is a long-term condition that significantly affects both individuals and society in terms of health and social implications.  It is marked by repeated seizures, which are short episodes of uncontrollable movements that can affect either a specific part of the body or the entire body.  Approximately 50 million people around the world are affected by epilepsy, making it one of the most prevalent neurological disorders. Despite the availability of treatments and interventions to manage the condition, a significant number of patients still experience epileptic seizures and are not fully controlled.<br>
-This project aims to develop a Machine Learning Model that is capable of predicting Epileptic Seizures from EEG (electroencephalogram) data/recordings using a Bidirectional Long Short-Term Memory (Bi-LSTM) network and (LSTM). EEG signals provide insights into the brains activity, accurately predicting seizures can improve the quality of life for patients with epilepsy.
+Epilepsy is a long-term condition that significantly affects both individuals and society in terms of health and social implications.  It is marked by repeated seizures, which are short episodes of uncontrollable movements that can affect either a specific part of the body or the entire body.  Approximately 50 million people around the world are affected by epilepsy, making it one of the most prevalent neurological disorders. Despite the availability of treatments and interventions to manage the condition, a significant number of patients still experience epileptic seizures and are not fully controlled.<br><br>
+This project aims to develop a Machine Learning Model that is capable of predicting Epileptic Seizures from EEG (electroencephalogram) data/recordings using a Bidirectional Long Short-Term Memory (Bi-LSTM) network and (LSTM). EEG signals provide insights into the brains activity, accurately predicting seizures can improve the quality of life for patients with epilepsy.A trained Bi-LSTM model is slightly more accurate than the LSTM model in predicting seizures from EEG data. Results are shown in the OUTPUT files for both the models.<br><br>
+For the future work and enhancing the model you can
+- Increase the number of epochs.
+- Use a dataset(more diverse EEG recordings) which is of larger size than the one used in this project.
+- Explore the hyperparameter tuning to enhance model performance.
+- Implement additional features, like real-time prediction and integration with some kind of wearable devices.
+
+
+
+
 
 
 
