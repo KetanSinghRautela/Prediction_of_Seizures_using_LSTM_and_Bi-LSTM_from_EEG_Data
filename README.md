@@ -1,1 +1,1 @@
-# Prediction_of_Seizures
+# Prediction_of_Seizures_using_LSTM_and_Bi-LSTM_from_EEG_Data.
